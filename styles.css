@@ -1,37 +1,33 @@
+body {
+  background-color: #325a8f;
+}
+
 .page {
   position: relative;
 }
 
 .robot {
   position: absolute;
-  width:1366px;
-  height:1366px;
   left: 800px;
   top: 0px;
 }
 
 .bottonlvl1 {
   position:absolute;
-  width:1366px;
-  height:1366px;
   top: 533px;
   left: 67px;
 }
 
 .bottonlvl2 {
   position:absolute;
-  width:1366px;
-  height:1366px;
   top: 682px;
   left: 220px;
 }
 
 .virtus {
   position:absolute;
-  padding:1px;
-  border:0;
-  left: 90%;
-  top:0px;
+  right: 20px;
+  top:15px;
 }
 
 #myBtn {
@@ -49,17 +45,16 @@
 
 .modal {
   display: none; 
-  position: relative; 
+  position: absolute; 
   z-index: 2; /* Define que o pop-up deverá ficar sobre outros elementos */
-  left: 0;
-  top: 0;
+  left: 150px;
+  top: 100px;
   width: 70%; 
   height: 70%;             
 }
 
-/* Modal Content */
 .modal-content {
-  position: relative;
+  position: absolute;
   margin: auto;
   padding: 0;
   width: 75%;

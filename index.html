@@ -6,7 +6,6 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <body background="./assets/background.png">
         <div class="page">
             <img src="./assets/page.png" alt="">
         
@@ -29,21 +28,16 @@
               </a>
           </div>
           <button id="myBtn"></button>
+          <div id="myModal" class="modal">      
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <video id="myVideo" width="100%" controls>
+                <source src="./assets/video.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+              </video>
+            </div>
+          </div>
         </div>
-      
-      <!-- Pop-up -->
-      <div id="myModal" class="modal">      
-        <!-- Conteúdo do Pop-up -->
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <video id="myVideo" width="100%" controls>
-            <source src="./assets/video.mp4" type="video/mp4">
-            Your browser does not support HTML video.
-          </video>
-        </div>
-
-      </div>
-
 
       <script>
             var vid = document.getElementById("myVideo"); 
