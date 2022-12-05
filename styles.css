@@ -46,7 +46,7 @@ body {
 .modal {
   display: none; 
   position: absolute; 
-  z-index: 2; 
+  z-index: 2;
   left: 150px;
   top: 100px;
   width: 70%; 
@@ -66,13 +66,13 @@ body {
 }
 
 @-webkit-keyframes animatetop {
-  from {top:-300px; opacity:0} 
-  to {top:0; opacity:1}
+from {top:-300px; opacity:0} 
+to {top:0; opacity:1}
 }
 
 @keyframes animatetop {
-  from {top:-300px; opacity:0}
-  to {top:0; opacity:1}
+from {top:-300px; opacity:0}
+to {top:0; opacity:1}
 }
 
 .close {
