@@ -46,7 +46,7 @@ body {
 .modal {
   display: none; 
   position: absolute; 
-  z-index: 2; /* Define que o pop-up deverá ficar sobre outros elementos */
+  z-index: 2; 
   left: 150px;
   top: 100px;
   width: 70%; 
@@ -65,29 +65,30 @@ body {
   animation-duration: 0.6s
 }
 
-/* Animações */
 @-webkit-keyframes animatetop {
-from {top:-300px; opacity:0} 
-to {top:0; opacity:1}
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
 }
 
 @keyframes animatetop {
-from {top:-300px; opacity:0}
-to {top:0; opacity:1}
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
 }
 
-/* Botão Fechar */
 .close {
-color: white;
-float: right;
-font-size: 28px;
-font-weight: bold;
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-color: #000;
-text-decoration: none;
-cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
-.modal-body {padding: 2px 16px;}
+
+.modal-body {
+  padding: 2px 16px;
+}
