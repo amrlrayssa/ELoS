@@ -1,69 +1,45 @@
 .page {
-  position:fixed;
-  width:1366px;
-  height:1366px;
-  padding:1px;
-  border:0;
-  left: 50%;
-  margin-left: -684px;
+  position: relative;
 }
 
 .robot {
-  position:absolute;
-  position: fixed;
+  position: absolute;
   width:1366px;
   height:1366px;
-  padding:1px;
-  border:0;
-  left: 50%;
-  margin-left: 90px;
-  margin-top: 30px;
+  left: 800px;
+  top: 0px;
 }
 
 .bottonlvl1 {
   position:absolute;
-  position: fixed;
   width:1366px;
   height:1366px;
-  padding:1px;
-  border:0;
-  left: 50%;
-  margin-left: -617px;
-  margin-top: 533px;
+  top: 533px;
+  left: 67px;
 }
 
 .bottonlvl2 {
   position:absolute;
-  position: fixed;
   width:1366px;
   height:1366px;
-  padding:1px;
-  border:0;
-  left: 50%;
-  margin-left: -463px;
-  margin-top: 684px;
+  top: 682px;
+  left: 220px;
 }
 
 .virtus {
   position:absolute;
-  position: fixed;
   padding:1px;
   border:0;
-  left: 50%;
-  margin-left: 600px;
-  margin-top: 0px;
+  left: 90%;
+  top:0px;
 }
 
 #myBtn {
   position: absolute;
-  position: fixed;
   width:185px;
   height:185px;
-  padding:1px;
-  border:0;
-  left: 50%;
-  margin-left: -200px;
-  margin-top: 130px;
+  left: 486px;
+  top: 132px;
   background-color: transparent;
   background-repeat:no-repeat;
   border: none;
@@ -73,7 +49,7 @@
 
 .modal {
   display: none; 
-  position: fixed; 
+  position: relative; 
   z-index: 2; /* Define que o pop-up deverá ficar sobre outros elementos */
   left: 0;
   top: 0;
